@@ -1,0 +1,142 @@
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 1px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+header {
+    justify-content: center;
+    margin: 20px;
+}
+
+#rssAndMail {
+    margin-left: 8px;
+}
+
+#h1AndP {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#h1AndP h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#h1AndP p {
+    color: darkgrey
+}
+
+#navBar {
+    align-items: flex-end;
+    margin-left: 27%;
+}
+
+#secondHeader {
+    justify-content: center;
+    margin: 20px;
+}
+
+#print {
+    align-items: flex-end;
+    margin-left: 39%;
+    color: darkgrey;
+}
+
+#chocopizza {
+    justify-content: center;
+}
+
+#hrImg {
+    background-repeat: repeat;
+    background-image: url('img/hr-img.png');
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#paragraphText {
+    color: rgb(63, 63, 63);
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#paragraphText p {
+    margin-bottom: 20px;
+}
+
+#delicious {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Snell Roundhand', cursive;
+}
+
+#bestfoodblog {
+    color: rgb(59, 59, 59);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#form {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-image: url('img/list-bg.png');
+    background-repeat: no-repeat;
+}
+
+fieldset {
+    justify-content: space-around;
+    font-size: 24px;
+    font-family: cursive;
+    margin: 20px;
+}
+
+input:checked~.strikethrough {
+    text-decoration: line-through;
+    color: darkgrey;
+}
+
+#vanessa {
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#vanessa h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#vanessa p{
+    font-size: 18px;
+    margin: 20px;
+}
+
+button {
+    background-color: rgb(158, 78, 78);
+    padding: 10px 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: darkgrey;
+    margin: 30px;
+}
+
