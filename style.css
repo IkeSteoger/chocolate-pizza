@@ -111,6 +111,7 @@ input:checked~.strikethrough {
 #vanessa {
     justify-content: space-around;
     margin: 20px;
+    align-items: center;
 }
 
 #vanessa h3{
